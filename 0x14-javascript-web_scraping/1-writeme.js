@@ -10,7 +10,7 @@ if (!filePath || !content) {
   console.error('Please provide a file path and the content to write.');
   process.exit(1);
 }
-//Write the string to file
+// Write the string to file
 fs.writeFile(filePath, content, 'utf-8', (err) => {
   if (err) {
     console.log('Error writing file:', err);
