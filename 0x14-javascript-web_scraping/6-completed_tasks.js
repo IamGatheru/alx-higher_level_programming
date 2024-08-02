@@ -10,7 +10,7 @@ request(url, function (err, data, body) {
     const response = JSON.parse(body);
 
     for (let i = 0; i < response.length; i++) {
-      if (response[i].complete === true) {
+      if (response[i].completed === true) {
         if (myDict[response[i].userId] === undefined) {
           myDict[response[i].userId] = 1;
         } else {
