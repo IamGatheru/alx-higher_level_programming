@@ -8,4 +8,8 @@ class Square():
     """
     An empty class that defines a square
     """
-    pass
+    def __init__(self, size):
+        """
+        private insatnce attribute: size
+        """
+        self.__size = size
