@@ -6,6 +6,7 @@ Define a MagicClass that does exactly as the bytecode provided.
 
 import math
 
+
 class MagicClass:
     """Represent a circle."""
     def __init__(self, radius=0):
@@ -26,4 +27,3 @@ class MagicClass:
     def circumference(self):
         """Return the circumference of the MagicClass."""
         return (2 * math.pi * self.__radius)
-
